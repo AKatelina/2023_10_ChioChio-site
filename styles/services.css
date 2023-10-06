@@ -463,9 +463,6 @@
   #services1 h2, #services2 h2 {
     font-size: 23.4px;
   }
-  #services1 .services-wrap, #services2 .services-wrap {
-    background-color: #E50040;
-  }
   #services1 .services-wrap .item, #services2 .services-wrap .item {
     margin-bottom: 18px;
   }

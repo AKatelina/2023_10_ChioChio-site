@@ -63,6 +63,11 @@ button {
   cursor: pointer;
 }
 
+a, a:hover, a:visited, a:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 h2 {
   margin: 0;
   padding: 0;
