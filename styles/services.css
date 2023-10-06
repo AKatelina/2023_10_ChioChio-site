@@ -185,78 +185,7 @@
   margin-bottom: 100px;
 }
 
-@media screen and (max-width: 3940px) {
-  .wrap-width {
-    margin: 0 auto;
-    padding: 75px;
-    max-width: 1250px;
-  }
-  #page-title h1 {
-    font-size: 119.2px;
-    padding: 57.3px 0 39.9px 0;
-  }
-  #choose-address {
-    margin: 101.2px 0 120px 0;
-  }
-  #choose-address .title {
-    font-size: 52px;
-    margin-bottom: 40px;
-  }
-  #choose-address .choose-town-input {
-    margin-bottom: 70px;
-    padding: 10px 20px;
-    border-radius: 9.2px;
-    border-width: 3.2px;
-    width: 970.8px;
-    font-size: 38px;
-  }
-  #choose-address .wrap .map {
-    margin-right: 60px;
-    min-width: 511px;
-    height: 456px;
-  }
-  #choose-address .wrap .days {
-    font-size: 38px;
-  }
-  #services1 .header, #services2 .header {
-    padding-bottom: 16px;
-    margin-bottom: 40px;
-    border-width: 2px;
-  }
-  #services1 h2, #services2 h2 {
-    font-size: 52px;
-  }
-  #services1 .services-wrap, #services2 .services-wrap {
-    padding-right: 153.2px;
-    padding-left: 69.2px;
-  }
-  #services1 .services-wrap .item, #services2 .services-wrap .item {
-    margin-bottom: 40px;
-  }
-  #services1 .services-wrap h3, #services2 .services-wrap h3 {
-    font-size: 36px;
-  }
-  #services1 .services-wrap .description, #services2 .services-wrap .description {
-    font-size: 24px;
-  }
-  #services1 .services-wrap .price, #services2 .services-wrap .price {
-    font-size: 36px;
-  }
-  #services1 button, #services2 button {
-    font-size: 28px;
-    border-width: 1.6px;
-    padding-bottom: 6.4px;
-  }
-  #services2 {
-    margin-top: 16px;
-    margin-bottom: 120px;
-  }
-  #services2 .services-wrap .item {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-}
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 3900px) {
   #page-title h1 {
     font-size: 89.4px;
     padding: 38.2px 0 26.6px 0;
@@ -480,35 +409,6 @@
   }
   #choose-address .wrap .map {
     margin: 0 0 15px 0;
-  }
-  #services1 .header, #services2 .header {
-    padding-bottom: 6px;
-    margin-bottom: 15px;
-    border-width: 0.75px;
-  }
-  #services1 h2, #services2 h2 {
-    font-size: 19.5px;
-  }
-  #services1 .services-wrap, #services2 .services-wrap {
-    padding-right: 57.45px;
-    padding-left: 25.95px;
-  }
-  #services1 .services-wrap .item, #services2 .services-wrap .item {
-    margin-bottom: 15px;
-  }
-  #services1 .services-wrap h3, #services2 .services-wrap h3 {
-    font-size: 13.5px;
-  }
-  #services1 .services-wrap .description, #services2 .services-wrap .description {
-    font-size: 9px;
-  }
-  #services1 .services-wrap .price, #services2 .services-wrap .price {
-    font-size: 13.5px;
-  }
-  #services1 button, #services2 button {
-    font-size: 10.5px;
-    border-width: 0.6px;
-    padding-bottom: 2.4px;
   }
 }
 @media screen and (max-width: 480px) {

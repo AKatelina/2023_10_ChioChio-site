@@ -872,6 +872,7 @@ h3 {
   }
   #footer .wrap {
     margin: 0 30px;
+    box-sizing: border-box;
   }
   #footer .item {
     margin: 0 0 10.4px 0;
