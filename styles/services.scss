@@ -416,104 +416,104 @@ $base-color-white: #ffffff;
 //  }
 //}
 
-@media screen and (max-width: 3940px) {
-  .wrap-width {
-    margin: 0 auto;
-    padding: 75px;
+//@media screen and (max-width: 1900px) {
+//  .wrap-width {
+//    margin: 0 auto;
+//    padding: 75px;
+//
+//    max-width: 1250px;
+//  }
+//  // 0.4
+//  #page-title {
+//    h1 {
+//      font-size: 298*0.4px;
+//      padding: 191*0.3px 0 133*0.3px 0;
+//    }
+//  }
+//
+//  #choose-address {
+//    margin: 253*0.4px 0 300*0.4px 0;
+//
+//    .title {
+//      font-size: 130*0.4px;
+//      margin-bottom: 100*0.4px;
+//    }
+//
+//    .choose-town-input {
+//      margin-bottom: 175*0.4px;
+//      padding: 25*0.4px 50*0.4px;
+//      border-radius: 23*0.4px;
+//      border-width: 8*0.4px;
+//      width: 2427*0.4px;
+//      font-size: 95*0.4px;
+//    }
+//
+//    .wrap {
+//      .map {
+//        margin-right: 150*0.4px;
+//        min-width: 1460*0.35px;
+//        height: 1140*0.4px;
+//      }
+//
+//      .days {
+//        font-size: 95*0.4px;
+//      }
+//    }
+//  }
+//
+//  #services1, #services2 {
+//    .header {
+//      padding-bottom: 40*0.4px;
+//      margin-bottom: 100*0.4px;
+//      border-width: 5*0.4px;
+//    }
+//
+//    h2 {
+//      font-size: 130*0.4px;
+//    }
+//
+//    .services-wrap {
+//      padding-right: 383*0.4px;
+//      padding-left: 173*0.4px;
+//
+//      .item {
+//        margin-bottom: 100*0.4px;
+//      }
+//
+//      h3 {
+//        font-size: 90*0.4px
+//      }
+//
+//      .description {
+//        font-size: 60*0.4px;
+//      }
+//
+//      .price {
+//        font-size: 90*0.4px
+//      }
+//    }
+//
+//    button {
+//      font-size: 70*0.4px;
+//      border-width: 4*0.4px;
+//      padding-bottom: 16*0.4px;
+//    }
+//  }
+//
+//  #services2 {
+//    margin-top: 40*0.4px;
+//    margin-bottom: 300*0.4px;
+//
+//    .services-wrap {
+//      .item {
+//        margin-top: 100*0.4px;
+//        margin-bottom: 100*0.4px;
+//      }
+//    }
+//  }
+//}
 
-    max-width: 1250px;
-  }
-  // 0.4
-  #page-title {
-    h1 {
-      font-size: 298*0.4px;
-      padding: 191*0.3px 0 133*0.3px 0;
-    }
-  }
-
-  #choose-address {
-    margin: 253*0.4px 0 300*0.4px 0;
-
-    .title {
-      font-size: 130*0.4px;
-      margin-bottom: 100*0.4px;
-    }
-
-    .choose-town-input {
-      margin-bottom: 175*0.4px;
-      padding: 25*0.4px 50*0.4px;
-      border-radius: 23*0.4px;
-      border-width: 8*0.4px;
-      width: 2427*0.4px;
-      font-size: 95*0.4px;
-    }
-
-    .wrap {
-      .map {
-        margin-right: 150*0.4px;
-        min-width: 1460*0.35px;
-        height: 1140*0.4px;
-      }
-
-      .days {
-        font-size: 95*0.4px;
-      }
-    }
-  }
-
-  #services1, #services2 {
-    .header {
-      padding-bottom: 40*0.4px;
-      margin-bottom: 100*0.4px;
-      border-width: 5*0.4px;
-    }
-
-    h2 {
-      font-size: 130*0.4px;
-    }
-
-    .services-wrap {
-      padding-right: 383*0.4px;
-      padding-left: 173*0.4px;
-
-      .item {
-        margin-bottom: 100*0.4px;
-      }
-
-      h3 {
-        font-size: 90*0.4px
-      }
-
-      .description {
-        font-size: 60*0.4px;
-      }
-
-      .price {
-        font-size: 90*0.4px
-      }
-    }
-
-    button {
-      font-size: 70*0.4px;
-      border-width: 4*0.4px;
-      padding-bottom: 16*0.4px;
-    }
-  }
-
-  #services2 {
-    margin-top: 40*0.4px;
-    margin-bottom: 300*0.4px;
-
-    .services-wrap {
-      .item {
-        margin-top: 100*0.4px;
-        margin-bottom: 100*0.4px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 3900px) {
   //0.3
   #page-title {
     h1 {
@@ -827,44 +827,44 @@ $base-color-white: #ffffff;
     }
   }
 
-  #services1, #services2 {
-    .header {
-      padding-bottom: 40*0.15px;
-      margin-bottom: 100*0.15px;
-      border-width: 5*0.15px;
-    }
-
-    h2 {
-      font-size: 130*0.15px;
-    }
-
-    .services-wrap {
-      padding-right: 383*0.15px;
-      padding-left: 173*0.15px;
-
-      .item {
-        margin-bottom: 100*0.15px;
-      }
-
-      h3 {
-        font-size: 90*0.15px
-      }
-
-      .description {
-        font-size: 60*0.15px;
-      }
-
-      .price {
-        font-size: 90*0.15px
-      }
-    }
-
-    button {
-      font-size: 70*0.15px;
-      border-width: 4*0.15px;
-      padding-bottom: 16*0.15px;
-    }
-  }
+  //#services1, #services2 {
+  //  .header {
+  //    padding-bottom: 40*0.15px;
+  //    margin-bottom: 100*0.15px;
+  //    border-width: 5*0.15px;
+  //  }
+  //
+  //  h2 {
+  //    font-size: 130*0.15px;
+  //  }
+  //
+  //  .services-wrap {
+  //    padding-right: 383*0.15px;
+  //    padding-left: 173*0.15px;
+  //
+  //    .item {
+  //      margin-bottom: 100*0.15px;
+  //    }
+  //
+  //    h3 {
+  //      font-size: 90*0.15px
+  //    }
+  //
+  //    .description {
+  //      font-size: 60*0.15px;
+  //    }
+  //
+  //    .price {
+  //      font-size: 90*0.15px
+  //    }
+  //  }
+  //
+  //  button {
+  //    font-size: 70*0.15px;
+  //    border-width: 4*0.15px;
+  //    padding-bottom: 16*0.15px;
+  //  }
+  //}
 }
 
 @media screen and (max-width: 480px) {
