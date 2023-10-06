@@ -49,6 +49,16 @@ body {
 }
 
 //Элементы
+
+.content-wrap {
+  margin: 0 auto;
+  padding: 0 100px;
+  max-width: 1250px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
 button {
   color: $base-color-white;
   font-family: 'Cera Pro', sans-serif;
@@ -202,7 +212,7 @@ h3 {
       font-style: normal;
       font-weight: 500;
       line-height: normal;
-      
+
     }
 
     .line {
@@ -807,6 +817,7 @@ h3 {
 
   .item {
     margin: 0 0 52px 0;
+    display: block;
 
     color: $base-color-white;
     font-family: 'Cera Pro', sans-serif;
@@ -814,6 +825,12 @@ h3 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+
+  .second-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .third-col {
@@ -1084,6 +1101,10 @@ h3 {
 
 @media screen and (max-width: 1200px) {
   //0.3
+  .content-wrap {
+    padding: 0 50px;
+  }
+
   #menu {
     .logo {
       margin-left: 0;
@@ -1126,6 +1147,9 @@ h3 {
 }
 
 @media screen and (max-width: 992px) {
+  .content-wrap {
+    padding: 0 40px;
+  }
   // 0.3
   #menu {
     .wrap {
@@ -1216,6 +1240,9 @@ h3 {
 
 @media screen and (max-width: 768px) {
   // 0.25
+  .content-wrap {
+    padding: 0 30px;
+  }
   #menu {
     .wrap {
       margin: 0 30px;
@@ -1313,6 +1340,9 @@ h3 {
 }
 
 @media screen and (max-width: 576px) {
+  .content-wrap {
+    padding: 0 25px;
+  }
   #menu {
     display: none;
   }
@@ -1346,7 +1376,7 @@ h3 {
 
     .wrap {
       margin: 0 25px;
-      align-items: flex-end;
+      //align-items: flex-end;
     }
 
     .logo-footer {
@@ -1361,6 +1391,10 @@ h3 {
 
     .copyright {
       display: none;
+    }
+
+    .second-col {
+      justify-content: space-between;
     }
 
     .copyright-middle {
@@ -1400,6 +1434,7 @@ h3 {
 
       .item {
         margin-bottom: 14px;
+        display: block;
 
         color: $base-color-white;
         font-family: 'Cera Pro', sans-serif;

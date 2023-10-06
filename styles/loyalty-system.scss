@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Black.ttf");
+  font-weight: 800 900;
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Bold.ttf");
+  font-weight: 600 700;
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Medium.ttf");
+  font-weight: 400 500;
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Light.ttf");
+  font-weight: 200 300;
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Thin.ttf");
+  font-weight: 100;
+}
+
+$base-color-dark: #0D263F;
+$base-color-bright: #E50040;
+$base-color-temp: #ff9696;
+$base-color-light: #E5E6E0;
+$base-color-shadow: #D0D2CC;
+$base-color-white: #ffffff;
+
+.loyalty-page {
+  background-color: #f1f1f1;
+}
+
+#instruction {
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #instruction {
+    h1 {
+      font-size: 206*0.3px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #instruction {
+    h1 {
+      font-size: 206*0.25px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #instruction {
+    h1 {
+      font-size: 206*0.2px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #instruction {
+    h1 {
+      font-size: 206*0.18px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #instruction {
+    h1 {
+      font-size: 206*0.15px;
+    }
+  }
+}
+
+@media screen and (max-width: 370px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
