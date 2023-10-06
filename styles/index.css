@@ -621,6 +621,7 @@ h3 {
   padding: 0 30px;
   max-width: 1450px;
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
 }
