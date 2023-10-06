@@ -1,0 +1,960 @@
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Black.ttf");
+  font-weight: 800 900;
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Bold.ttf");
+  font-weight: 600 700;
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Medium.ttf");
+  font-weight: 400 500;
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Light.ttf");
+  font-weight: 200 300;
+}
+
+$base-color-dark: #0D263F;
+$base-color-bright: #E50040;
+$base-color-temp: #ff9696;
+$base-color-light: #E5E6E0;
+$base-color-shadow: #D0D2CC;
+$base-color-white: #ffffff;
+
+.services-page {
+  //max-width: 1200px;
+  background-color: $base-color-white;
+}
+
+.wrap-width {
+  margin: 0 auto;
+  padding: 30px;
+
+  max-width: 1250px;
+
+}
+
+#page-title {
+  background-color: $base-color-dark;
+  text-align: right;
+
+  position: relative;
+
+  h1 {
+    margin: 0;
+    padding: 191px 0 133px 0;
+
+    color: $base-color-light;
+    font-family: 'Cera Pro', sans-serif;
+    font-size: 298.937px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .wave3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40vw;
+  }
+}
+
+#choose-address {
+  margin: 253px 0 300px 0;
+
+  .title {
+    margin-bottom: 100px;
+
+    color: $base-color-dark;
+    font-family: 'Cera Pro', sans-serif;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .choose-town-input {
+    margin-bottom: 175px;
+    padding: 25px 50px;
+
+    border-radius: 23.744px;
+    border: 7.935px solid #AFAFAF;
+    background: #FFF;
+
+    width: 2427px;
+
+    color: #AFAFAF;
+    font-family: 'Cera Pro', sans-serif;
+    font-size: 95.223px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .wrap {
+    display: flex;
+
+    .map {
+      margin-right: 150px;
+      min-width: 1460px;
+      height: 1140px;
+      background-color: #d9d2d2;
+    }
+
+    .days {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+
+      color: $base-color-dark;
+      font-family: 'Cera Pro', sans-serif;
+      font-size: 95px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+      .time {
+        font-weight: 400;
+      }
+    }
+
+    .item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
+
+#services1, #services2 {
+  .header {
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+    border-bottom: 5px solid $base-color-dark;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+
+    color: $base-color-dark;
+    font-family: 'Cera Pro', sans-serif;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .services-wrap {
+    margin: 0 auto;
+    //width: 100%;
+    padding-right: 383px;
+    padding-left: 173px;
+
+    .item {
+      margin-bottom: 100px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    h3 {
+      margin: 0;
+      padding: 0;
+
+      color: $base-color-dark;
+      font-family: 'Cera Pro', sans-serif;
+      font-size: 90px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    .description {
+      color: $base-color-dark;
+      font-family: 'Cera Pro', sans-serif;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .price {
+      color: $base-color-dark;
+      font-family: 'Cera Pro', sans-serif;
+      font-size: 90px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+
+  button {
+    padding-bottom: 16px;
+    display: flex;
+    margin: auto;
+    background-color: transparent;
+
+    border-radius: 0;
+    border-bottom: 4px solid $base-color-bright;
+    color: $base-color-dark;
+    font-family: 'Cera Pro', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+#services2 {
+  margin-top: 40px;
+  margin-bottom: 300px;
+
+  .services-wrap {
+    .item {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+
+// Адаптивность
+//@media screen and (max-width: 3100px) {
+//  // 0.8
+//  #page-title {
+//    h1 {
+//      font-size: 298*0.8px;
+//      padding: 191*0.7px 0 133*0.7px 0;
+//    }
+//  }
+//
+//  #choose-address {
+//    margin: 253*0.8px 0 300*0.8px 0;
+//
+//    .title {
+//      font-size: 130*0.8px;
+//      margin-bottom: 100*0.8px;
+//    }
+//
+//    .choose-town-input {
+//      margin-bottom: 175*0.8px;
+//      padding: 25*0.8px 50*0.8px;
+//      border-radius: 23*0.8px;
+//      border-width: 8*0.8px;
+//      width: 2427*0.8px;
+//      font-size: 95*0.8px;
+//    }
+//
+//    .wrap {
+//      .map {
+//        margin-right: 150*0.8px;
+//        min-width: 1460*0.8px;
+//        height: 1140*0.8px;
+//      }
+//
+//      .days {
+//        font-size: 95*0.8px;
+//      }
+//    }
+//  }
+//
+//  #services1, #services2 {
+//    .header {
+//      padding-bottom: 40*0.8px;
+//      margin-bottom: 100*0.8px;
+//      border-width: 5*0.8px;
+//    }
+//
+//    h2 {
+//      font-size: 130*0.8px;
+//    }
+//
+//    .services-wrap {
+//      padding-right: 383*0.8px;
+//      padding-left: 173*0.8px;
+//
+//      .item {
+//        margin-bottom: 100*0.8px;
+//      }
+//
+//      h3 {
+//        font-size: 90*0.8px
+//      }
+//
+//      .description {
+//        font-size: 60*0.8px;
+//      }
+//
+//      .price {
+//        font-size: 90*0.8px
+//      }
+//    }
+//
+//    button {
+//      font-size: 70*0.8px;
+//      border-width: 4*0.8px;
+//      padding-bottom: 16*0.8px;
+//    }
+//  }
+//
+//  #services2 {
+//    margin-top: 40*0.8px;
+//    margin-bottom: 300*0.8px;
+//
+//    .services-wrap {
+//      .item {
+//        margin-top: 100*0.8px;
+//        margin-bottom: 100*0.8px;
+//      }
+//    }
+//  }
+//}
+
+//@media screen and (max-width: 2500px) {
+//  // 0.6
+//  #page-title {
+//    h1 {
+//      font-size: 298*0.6px;
+//      padding: 191*0.5px 0 133*0.5px 0;
+//    }
+//  }
+//
+//  #choose-address {
+//    margin: 253*0.6px 0 300*0.6px 0;
+//
+//    .title {
+//      font-size: 130*0.6px;
+//      margin-bottom: 100*0.6px;
+//    }
+//
+//    .choose-town-input {
+//      margin-bottom: 175*0.6px;
+//      padding: 25*0.6px 50*0.6px;
+//      border-radius: 23*0.6px;
+//      border-width: 8*0.6px;
+//      width: 2427*0.6px;
+//      font-size: 95*0.6px;
+//    }
+//
+//    .wrap {
+//      .map {
+//        margin-right: 150*0.6px;
+//        min-width: 1460*0.6px;
+//        height: 1140*0.6px;
+//      }
+//
+//      .days {
+//        font-size: 95*0.6px;
+//      }
+//    }
+//  }
+//
+//  #services1, #services2 {
+//    .header {
+//      padding-bottom: 40*0.6px;
+//      margin-bottom: 100*0.6px;
+//      border-width: 5*0.6px;
+//    }
+//
+//    h2 {
+//      font-size: 130*0.6px;
+//    }
+//
+//    .services-wrap {
+//      padding-right: 383*0.6px;
+//      padding-left: 173*0.6px;
+//
+//      .item {
+//        margin-bottom: 100*0.6px;
+//      }
+//
+//      h3 {
+//        font-size: 90*0.6px
+//      }
+//
+//      .description {
+//        font-size: 60*0.6px;
+//      }
+//
+//      .price {
+//        font-size: 90*0.6px
+//      }
+//    }
+//
+//    button {
+//      font-size: 70*0.6px;
+//      border-width: 4*0.6px;
+//      padding-bottom: 16*0.6px;
+//    }
+//  }
+//
+//  #services2 {
+//    margin-top: 40*0.6px;
+//    margin-bottom: 300*0.6px;
+//
+//    .services-wrap {
+//      .item {
+//        margin-top: 100*0.6px;
+//        margin-bottom: 100*0.6px;
+//      }
+//    }
+//  }
+//}
+
+@media screen and (max-width: 3940px) {
+  .wrap-width {
+    margin: 0 auto;
+    padding: 75px;
+
+    max-width: 1250px;
+  }
+  // 0.4
+  #page-title {
+    h1 {
+      font-size: 298*0.4px;
+      padding: 191*0.3px 0 133*0.3px 0;
+    }
+  }
+
+  #choose-address {
+    margin: 253*0.4px 0 300*0.4px 0;
+
+    .title {
+      font-size: 130*0.4px;
+      margin-bottom: 100*0.4px;
+    }
+
+    .choose-town-input {
+      margin-bottom: 175*0.4px;
+      padding: 25*0.4px 50*0.4px;
+      border-radius: 23*0.4px;
+      border-width: 8*0.4px;
+      width: 2427*0.4px;
+      font-size: 95*0.4px;
+    }
+
+    .wrap {
+      .map {
+        margin-right: 150*0.4px;
+        min-width: 1460*0.35px;
+        height: 1140*0.4px;
+      }
+
+      .days {
+        font-size: 95*0.4px;
+      }
+    }
+  }
+
+  #services1, #services2 {
+    .header {
+      padding-bottom: 40*0.4px;
+      margin-bottom: 100*0.4px;
+      border-width: 5*0.4px;
+    }
+
+    h2 {
+      font-size: 130*0.4px;
+    }
+
+    .services-wrap {
+      padding-right: 383*0.4px;
+      padding-left: 173*0.4px;
+
+      .item {
+        margin-bottom: 100*0.4px;
+      }
+
+      h3 {
+        font-size: 90*0.4px
+      }
+
+      .description {
+        font-size: 60*0.4px;
+      }
+
+      .price {
+        font-size: 90*0.4px
+      }
+    }
+
+    button {
+      font-size: 70*0.4px;
+      border-width: 4*0.4px;
+      padding-bottom: 16*0.4px;
+    }
+  }
+
+  #services2 {
+    margin-top: 40*0.4px;
+    margin-bottom: 300*0.4px;
+
+    .services-wrap {
+      .item {
+        margin-top: 100*0.4px;
+        margin-bottom: 100*0.4px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  //0.3
+  #page-title {
+    h1 {
+      font-size: 298*0.3px;
+      padding: 191*0.2px 0 133*0.2px 0;
+    }
+  }
+
+  #choose-address {
+    margin: 253*0.3px 0 300*0.3px 0;
+
+    .title {
+      font-size: 130*0.3px;
+      margin-bottom: 100*0.3px;
+    }
+
+    .choose-town-input {
+      margin-bottom: 175*0.3px;
+      padding: 25*0.3px 50*0.3px;
+      border-radius: 23*0.3px;
+      border-width: 8*0.3px;
+      width: 2427*0.3px;
+      font-size: 95*0.3px;
+    }
+
+    .wrap {
+      .map {
+        margin-right: 150*0.3px;
+        min-width: 1460*0.25px;
+        height: 1140*0.3px;
+      }
+
+      .days {
+        font-size: 95*0.3px;
+      }
+    }
+  }
+
+  #services1, #services2 {
+    .header {
+      padding-bottom: 40*0.3px;
+      margin-bottom: 100*0.3px;
+      border-width: 5*0.3px;
+    }
+
+    h2 {
+      font-size: 130*0.3px;
+    }
+
+    .services-wrap {
+      padding-right: 383*0.3px;
+      padding-left: 173*0.3px;
+
+      .item {
+        margin-bottom: 100*0.3px;
+      }
+
+      h3 {
+        font-size: 90*0.3px
+      }
+
+      .description {
+        font-size: 60*0.3px;
+      }
+
+      .price {
+        font-size: 90*0.3px
+      }
+    }
+
+    button {
+      font-size: 70*0.3px;
+      border-width: 4*0.3px;
+      padding-bottom: 16*0.3px;
+    }
+  }
+
+  #services2 {
+    margin-top: 40*0.3px;
+    margin-bottom: 300*0.3px;
+
+    .services-wrap {
+      .item {
+        margin-top: 100*0.3px;
+        margin-bottom: 100*0.3px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .wrap-width {
+    margin: 0 auto;
+    padding: 50px;
+
+    max-width: 3380px;
+  }
+  //0.25
+  #page-title {
+    h1 {
+      font-size: 298*0.25px;
+      padding: 191*0.15px 0 133*0.15px 0;
+    }
+  }
+
+  #choose-address {
+    margin: 253*0.25px 0 300*0.25px 0;
+
+    .title {
+      font-size: 130*0.25px;
+      margin-bottom: 100*0.25px;
+    }
+
+    .choose-town-input {
+      margin-bottom: 175*0.25px;
+      padding: 25*0.25px 50*0.25px;
+      border-radius: 23*0.25px;
+      border-width: 8*0.25px;
+      width: 2427*0.25px;
+      font-size: 95*0.25px;
+    }
+
+    .wrap {
+      .map {
+        margin-right: 150*0.25px;
+        min-width: 1460*0.2px;
+        height: 1140*0.25px;
+      }
+
+      .days {
+        font-size: 95*0.25px;
+      }
+    }
+  }
+
+  #services1, #services2 {
+    .header {
+      padding-bottom: 40*0.25px;
+      margin-bottom: 100*0.25px;
+      border-width: 5*0.25px;
+    }
+
+    h2 {
+      font-size: 130*0.25px;
+    }
+
+    .services-wrap {
+      padding-right: 383*0.25px;
+      padding-left: 173*0.25px;
+
+      .item {
+        margin-bottom: 100*0.25px;
+      }
+
+      h3 {
+        font-size: 90*0.25px
+      }
+
+      .description {
+        font-size: 60*0.25px;
+      }
+
+      .price {
+        font-size: 90*0.25px
+      }
+    }
+
+    button {
+      font-size: 70*0.25px;
+      border-width: 4*0.25px;
+      padding-bottom: 16*0.25px;
+    }
+  }
+
+  #services2 {
+    margin-top: 40*0.25px;
+    margin-bottom: 300*0.25px;
+
+    .services-wrap {
+      .item {
+        margin-top: 100*0.25px;
+        margin-bottom: 100*0.25px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  //0.2
+  .wrap-width {
+    margin: 0 auto;
+    padding: 25px;
+
+    max-width: 3380px;
+  }
+
+  #page-title {
+    h1 {
+      font-size: 298*0.2px;
+      padding: 191*0.1px 0 133*0.1px 0;
+    }
+  }
+
+  #choose-address {
+    margin: 253*0.2px 0 300*0.2px 0;
+
+    .title {
+      font-size: 130*0.2px;
+      margin-bottom: 100*0.2px;
+    }
+
+    .choose-town-input {
+      margin-bottom: 175*0.2px;
+      padding: 25*0.2px 50*0.2px;
+      border-radius: 23*0.2px;
+      border-width: 8*0.2px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 95*0.2px;
+    }
+
+    .wrap {
+      .map {
+        margin-right: 150*0.2px;
+        min-width: 1460*0.15px;
+        height: 1140*0.2px;
+      }
+
+      .days {
+        font-size: 95*0.2px;
+      }
+    }
+  }
+
+  #services1, #services2 {
+    .header {
+      padding-bottom: 40*0.2px;
+      margin-bottom: 100*0.2px;
+      border-width: 5*0.2px;
+    }
+
+    h2 {
+      font-size: 130*0.2px;
+    }
+
+    .services-wrap {
+      padding-right: 383*0.2px;
+      padding-left: 173*0.2px;
+
+      .item {
+        margin-bottom: 100*0.2px;
+      }
+
+      h3 {
+        font-size: 90*0.2px
+      }
+
+      .description {
+        font-size: 60*0.2px;
+      }
+
+      .price {
+        font-size: 90*0.2px
+      }
+    }
+
+    button {
+      font-size: 70*0.2px;
+      border-width: 4*0.2px;
+      padding-bottom: 16*0.2px;
+    }
+  }
+
+  #services2 {
+    margin-top: 40*0.2px;
+    margin-bottom: 300*0.2px;
+
+    .services-wrap {
+      .item {
+        margin-top: 100*0.2px;
+        margin-bottom: 100*0.2px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .wrap-width {
+    margin: 0 auto;
+    padding: 25px;
+
+    max-width: 3380px;
+  }
+
+  //0.15
+  #page-title {
+    h1 {
+      font-size: 298*0.15px;
+      padding: 191*0.05px 0 133*0.05px 0;
+    }
+  }
+
+  #choose-address {
+    .wrap {
+      flex-direction: column;
+
+      .map {
+        margin: 0 0 15px 0;
+      }
+    }
+  }
+
+  #services1, #services2 {
+    .header {
+      padding-bottom: 40*0.15px;
+      margin-bottom: 100*0.15px;
+      border-width: 5*0.15px;
+    }
+
+    h2 {
+      font-size: 130*0.15px;
+    }
+
+    .services-wrap {
+      padding-right: 383*0.15px;
+      padding-left: 173*0.15px;
+
+      .item {
+        margin-bottom: 100*0.15px;
+      }
+
+      h3 {
+        font-size: 90*0.15px
+      }
+
+      .description {
+        font-size: 60*0.15px;
+      }
+
+      .price {
+        font-size: 90*0.15px
+      }
+    }
+
+    button {
+      font-size: 70*0.15px;
+      border-width: 4*0.15px;
+      padding-bottom: 16*0.15px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #services1, #services2 {
+    .services-wrap {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #services1, #services2 {
+    .header {
+      padding-bottom: 40*0.13px;
+      margin-bottom: 100*0.13px;
+      border-width: 5*0.13px;
+    }
+
+    h2 {
+      font-size: 130*0.13px;
+    }
+
+    .services-wrap {
+
+      .item {
+        margin-bottom: 100*0.13px;
+      }
+
+      h3 {
+        font-size: 90*0.13px
+      }
+
+      .description {
+        font-size: 60*0.13px;
+      }
+
+      .price {
+        font-size: 90*0.13px
+      }
+    }
+
+    button {
+      font-size: 70*0.13px;
+      border-width: 4*0.13px;
+      padding-bottom: 16*0.13px;
+    }
+  }
+
+  #services2 {
+    margin-top: 40*0.13px;
+    margin-bottom: 300*0.13px;
+
+    .services-wrap {
+      .item {
+        margin-top: 100*0.13px;
+        margin-bottom: 100*0.13px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  //0.15
+  #choose-address {
+    margin: 253*0.15px 0 300*0.15px 0;
+
+    .title {
+      font-size: 130*0.15px;
+      margin-bottom: 100*0.15px;
+    }
+
+    .choose-town-input {
+      margin-bottom: 175*0.15px;
+      padding: 25*0.15px 50*0.15px;
+      border-radius: 23*0.15px;
+      border-width: 8*0.15px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 95*0.15px;
+    }
+
+    .wrap {
+      .map {
+        height: 1140*0.15px;
+      }
+
+      .days {
+        font-size: 95*0.15px;
+      }
+    }
+  }
+}

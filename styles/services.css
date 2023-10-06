@@ -1,0 +1,580 @@
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Black.ttf");
+  font-weight: 800 900;
+}
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Bold.ttf");
+  font-weight: 600 700;
+}
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Medium.ttf");
+  font-weight: 400 500;
+}
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro/CeraPro-Light.ttf");
+  font-weight: 200 300;
+}
+.services-page {
+  background-color: #ffffff;
+}
+
+.wrap-width {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 1250px;
+}
+
+#page-title {
+  background-color: #0D263F;
+  text-align: right;
+  position: relative;
+}
+#page-title h1 {
+  margin: 0;
+  padding: 191px 0 133px 0;
+  color: #E5E6E0;
+  font-family: "Cera Pro", sans-serif;
+  font-size: 298.937px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#page-title .wave3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40vw;
+}
+
+#choose-address {
+  margin: 253px 0 300px 0;
+}
+#choose-address .title {
+  margin-bottom: 100px;
+  color: #0D263F;
+  font-family: "Cera Pro", sans-serif;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#choose-address .choose-town-input {
+  margin-bottom: 175px;
+  padding: 25px 50px;
+  border-radius: 23.744px;
+  border: 7.935px solid #AFAFAF;
+  background: #FFF;
+  width: 2427px;
+  color: #AFAFAF;
+  font-family: "Cera Pro", sans-serif;
+  font-size: 95.223px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#choose-address .wrap {
+  display: flex;
+}
+#choose-address .wrap .map {
+  margin-right: 150px;
+  min-width: 1460px;
+  height: 1140px;
+  background-color: #d9d2d2;
+}
+#choose-address .wrap .days {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  color: #0D263F;
+  font-family: "Cera Pro", sans-serif;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#choose-address .wrap .days .time {
+  font-weight: 400;
+}
+#choose-address .wrap .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#services1 .header, #services2 .header {
+  width: 100%;
+  padding-bottom: 40px;
+  margin-bottom: 100px;
+  border-bottom: 5px solid #0D263F;
+}
+#services1 h2, #services2 h2 {
+  margin: 0;
+  padding: 0;
+  color: #0D263F;
+  font-family: "Cera Pro", sans-serif;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#services1 .services-wrap, #services2 .services-wrap {
+  margin: 0 auto;
+  padding-right: 383px;
+  padding-left: 173px;
+}
+#services1 .services-wrap .item, #services2 .services-wrap .item {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#services1 .services-wrap h3, #services2 .services-wrap h3 {
+  margin: 0;
+  padding: 0;
+  color: #0D263F;
+  font-family: "Cera Pro", sans-serif;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#services1 .services-wrap .description, #services2 .services-wrap .description {
+  color: #0D263F;
+  font-family: "Cera Pro", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#services1 .services-wrap .price, #services2 .services-wrap .price {
+  color: #0D263F;
+  font-family: "Cera Pro", sans-serif;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#services1 button, #services2 button {
+  padding-bottom: 16px;
+  display: flex;
+  margin: auto;
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: 4px solid #E50040;
+  color: #0D263F;
+  font-family: "Cera Pro", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#services2 {
+  margin-top: 40px;
+  margin-bottom: 300px;
+}
+#services2 .services-wrap .item {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 3940px) {
+  .wrap-width {
+    margin: 0 auto;
+    padding: 75px;
+    max-width: 1250px;
+  }
+  #page-title h1 {
+    font-size: 119.2px;
+    padding: 57.3px 0 39.9px 0;
+  }
+  #choose-address {
+    margin: 101.2px 0 120px 0;
+  }
+  #choose-address .title {
+    font-size: 52px;
+    margin-bottom: 40px;
+  }
+  #choose-address .choose-town-input {
+    margin-bottom: 70px;
+    padding: 10px 20px;
+    border-radius: 9.2px;
+    border-width: 3.2px;
+    width: 970.8px;
+    font-size: 38px;
+  }
+  #choose-address .wrap .map {
+    margin-right: 60px;
+    min-width: 511px;
+    height: 456px;
+  }
+  #choose-address .wrap .days {
+    font-size: 38px;
+  }
+  #services1 .header, #services2 .header {
+    padding-bottom: 16px;
+    margin-bottom: 40px;
+    border-width: 2px;
+  }
+  #services1 h2, #services2 h2 {
+    font-size: 52px;
+  }
+  #services1 .services-wrap, #services2 .services-wrap {
+    padding-right: 153.2px;
+    padding-left: 69.2px;
+  }
+  #services1 .services-wrap .item, #services2 .services-wrap .item {
+    margin-bottom: 40px;
+  }
+  #services1 .services-wrap h3, #services2 .services-wrap h3 {
+    font-size: 36px;
+  }
+  #services1 .services-wrap .description, #services2 .services-wrap .description {
+    font-size: 24px;
+  }
+  #services1 .services-wrap .price, #services2 .services-wrap .price {
+    font-size: 36px;
+  }
+  #services1 button, #services2 button {
+    font-size: 28px;
+    border-width: 1.6px;
+    padding-bottom: 6.4px;
+  }
+  #services2 {
+    margin-top: 16px;
+    margin-bottom: 120px;
+  }
+  #services2 .services-wrap .item {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #page-title h1 {
+    font-size: 89.4px;
+    padding: 38.2px 0 26.6px 0;
+  }
+  #choose-address {
+    margin: 75.9px 0 90px 0;
+  }
+  #choose-address .title {
+    font-size: 39px;
+    margin-bottom: 30px;
+  }
+  #choose-address .choose-town-input {
+    margin-bottom: 52.5px;
+    padding: 7.5px 15px;
+    border-radius: 6.9px;
+    border-width: 2.4px;
+    width: 728.1px;
+    font-size: 28.5px;
+  }
+  #choose-address .wrap .map {
+    margin-right: 45px;
+    min-width: 365px;
+    height: 342px;
+  }
+  #choose-address .wrap .days {
+    font-size: 28.5px;
+  }
+  #services1 .header, #services2 .header {
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+    border-width: 1.5px;
+  }
+  #services1 h2, #services2 h2 {
+    font-size: 39px;
+  }
+  #services1 .services-wrap, #services2 .services-wrap {
+    padding-right: 114.9px;
+    padding-left: 51.9px;
+  }
+  #services1 .services-wrap .item, #services2 .services-wrap .item {
+    margin-bottom: 30px;
+  }
+  #services1 .services-wrap h3, #services2 .services-wrap h3 {
+    font-size: 27px;
+  }
+  #services1 .services-wrap .description, #services2 .services-wrap .description {
+    font-size: 18px;
+  }
+  #services1 .services-wrap .price, #services2 .services-wrap .price {
+    font-size: 27px;
+  }
+  #services1 button, #services2 button {
+    font-size: 21px;
+    border-width: 1.2px;
+    padding-bottom: 4.8px;
+  }
+  #services2 {
+    margin-top: 12px;
+    margin-bottom: 90px;
+  }
+  #services2 .services-wrap .item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .wrap-width {
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 3380px;
+  }
+  #page-title h1 {
+    font-size: 74.5px;
+    padding: 28.65px 0 19.95px 0;
+  }
+  #choose-address {
+    margin: 63.25px 0 75px 0;
+  }
+  #choose-address .title {
+    font-size: 32.5px;
+    margin-bottom: 25px;
+  }
+  #choose-address .choose-town-input {
+    margin-bottom: 43.75px;
+    padding: 6.25px 12.5px;
+    border-radius: 5.75px;
+    border-width: 2px;
+    width: 606.75px;
+    font-size: 23.75px;
+  }
+  #choose-address .wrap .map {
+    margin-right: 37.5px;
+    min-width: 292px;
+    height: 285px;
+  }
+  #choose-address .wrap .days {
+    font-size: 23.75px;
+  }
+  #services1 .header, #services2 .header {
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-width: 1.25px;
+  }
+  #services1 h2, #services2 h2 {
+    font-size: 32.5px;
+  }
+  #services1 .services-wrap, #services2 .services-wrap {
+    padding-right: 95.75px;
+    padding-left: 43.25px;
+  }
+  #services1 .services-wrap .item, #services2 .services-wrap .item {
+    margin-bottom: 25px;
+  }
+  #services1 .services-wrap h3, #services2 .services-wrap h3 {
+    font-size: 22.5px;
+  }
+  #services1 .services-wrap .description, #services2 .services-wrap .description {
+    font-size: 15px;
+  }
+  #services1 .services-wrap .price, #services2 .services-wrap .price {
+    font-size: 22.5px;
+  }
+  #services1 button, #services2 button {
+    font-size: 17.5px;
+    border-width: 1px;
+    padding-bottom: 4px;
+  }
+  #services2 {
+    margin-top: 10px;
+    margin-bottom: 75px;
+  }
+  #services2 .services-wrap .item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrap-width {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 3380px;
+  }
+  #page-title h1 {
+    font-size: 59.6px;
+    padding: 19.1px 0 13.3px 0;
+  }
+  #choose-address {
+    margin: 50.6px 0 60px 0;
+  }
+  #choose-address .title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  #choose-address .choose-town-input {
+    margin-bottom: 35px;
+    padding: 5px 10px;
+    border-radius: 4.6px;
+    border-width: 1.6px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+  }
+  #choose-address .wrap .map {
+    margin-right: 30px;
+    min-width: 219px;
+    height: 228px;
+  }
+  #choose-address .wrap .days {
+    font-size: 19px;
+  }
+  #services1 .header, #services2 .header {
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    border-width: 1px;
+  }
+  #services1 h2, #services2 h2 {
+    font-size: 26px;
+  }
+  #services1 .services-wrap, #services2 .services-wrap {
+    padding-right: 76.6px;
+    padding-left: 34.6px;
+  }
+  #services1 .services-wrap .item, #services2 .services-wrap .item {
+    margin-bottom: 20px;
+  }
+  #services1 .services-wrap h3, #services2 .services-wrap h3 {
+    font-size: 18px;
+  }
+  #services1 .services-wrap .description, #services2 .services-wrap .description {
+    font-size: 12px;
+  }
+  #services1 .services-wrap .price, #services2 .services-wrap .price {
+    font-size: 18px;
+  }
+  #services1 button, #services2 button {
+    font-size: 14px;
+    border-width: 0.8px;
+    padding-bottom: 3.2px;
+  }
+  #services2 {
+    margin-top: 8px;
+    margin-bottom: 60px;
+  }
+  #services2 .services-wrap .item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .wrap-width {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 3380px;
+  }
+  #page-title h1 {
+    font-size: 44.7px;
+    padding: 9.55px 0 6.65px 0;
+  }
+  #choose-address .wrap {
+    flex-direction: column;
+  }
+  #choose-address .wrap .map {
+    margin: 0 0 15px 0;
+  }
+  #services1 .header, #services2 .header {
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    border-width: 0.75px;
+  }
+  #services1 h2, #services2 h2 {
+    font-size: 19.5px;
+  }
+  #services1 .services-wrap, #services2 .services-wrap {
+    padding-right: 57.45px;
+    padding-left: 25.95px;
+  }
+  #services1 .services-wrap .item, #services2 .services-wrap .item {
+    margin-bottom: 15px;
+  }
+  #services1 .services-wrap h3, #services2 .services-wrap h3 {
+    font-size: 13.5px;
+  }
+  #services1 .services-wrap .description, #services2 .services-wrap .description {
+    font-size: 9px;
+  }
+  #services1 .services-wrap .price, #services2 .services-wrap .price {
+    font-size: 13.5px;
+  }
+  #services1 button, #services2 button {
+    font-size: 10.5px;
+    border-width: 0.6px;
+    padding-bottom: 2.4px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #services1 .services-wrap, #services2 .services-wrap {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 370px) {
+  #services1 .header, #services2 .header {
+    padding-bottom: 5.2px;
+    margin-bottom: 13px;
+    border-width: 0.65px;
+  }
+  #services1 h2, #services2 h2 {
+    font-size: 16.9px;
+  }
+  #services1 .services-wrap .item, #services2 .services-wrap .item {
+    margin-bottom: 13px;
+  }
+  #services1 .services-wrap h3, #services2 .services-wrap h3 {
+    font-size: 11.7px;
+  }
+  #services1 .services-wrap .description, #services2 .services-wrap .description {
+    font-size: 7.8px;
+  }
+  #services1 .services-wrap .price, #services2 .services-wrap .price {
+    font-size: 11.7px;
+  }
+  #services1 button, #services2 button {
+    font-size: 9.1px;
+    border-width: 0.52px;
+    padding-bottom: 2.08px;
+  }
+  #services2 {
+    margin-top: 5.2px;
+    margin-bottom: 39px;
+  }
+  #services2 .services-wrap .item {
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #choose-address {
+    margin: 37.95px 0 45px 0;
+  }
+  #choose-address .title {
+    font-size: 19.5px;
+    margin-bottom: 15px;
+  }
+  #choose-address .choose-town-input {
+    margin-bottom: 26.25px;
+    padding: 3.75px 7.5px;
+    border-radius: 3.45px;
+    border-width: 1.2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14.25px;
+  }
+  #choose-address .wrap .map {
+    height: 171px;
+  }
+  #choose-address .wrap .days {
+    font-size: 14.25px;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */
